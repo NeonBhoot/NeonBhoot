@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Takbir%20A.%20Himu&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="header" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <img src="assets/header-light.svg" alt="Takbir A. Himu" />
+</picture>
 
 <a href="https://github.com/NeonBhoot">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39FF8F&center=true&vCenter=true&width=560&lines=Android+Developer;Kotlin+%E2%80%A2+Jetpack+Compose;Firebase+%E2%80%A2+Next.js;Neon+Bhoot+%F0%9F%91%BB" alt="typing" />
@@ -37,16 +40,28 @@ val takbir = Developer(
 ## 📊 Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NeonBhoot&show_icons=true&count_private=true&bg_color=0B0B12&title_color=39FF8F&text_color=c9d1d9&icon_color=34E0FF&border_color=39FF8F&border_radius=12" alt="github stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=NeonBhoot&background=0B0B12&border=39FF8F&stroke=39FF8F&ring=39FF8F&fire=39FF8F&currStreakNum=ffffff&sideNums=c9d1d9&currStreakLabel=34E0FF&sideLabels=34E0FF&dates=8b949e" alt="streak stats" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg" />
+    <img src="assets/stats-light.svg" alt="github stats" height="216" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg" />
+    <img src="assets/streak-light.svg" alt="streak stats" height="216" />
+  </picture>
 </div>
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=NeonBhoot&layout=compact&langs_count=8&count_private=true&bg_color=0B0B12&title_color=39FF8F&text_color=c9d1d9&border_color=39FF8F&border_radius=12" alt="top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/top-langs-dark.svg" />
+    <img src="assets/top-langs-light.svg" alt="top languages" height="300" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NeonBhoot&bg_color=0B0B12&color=39FF8F&line=34E0FF&point=39FF8F&area=true&hide_border=true" alt="activity graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg" />
+    <img src="assets/activity-light.svg" alt="contribution activity" />
+  </picture>
 </div>
 
 ## 🐍 Contribution snake
@@ -81,4 +96,7 @@ val takbir = Developer(
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" alt="footer" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" />
+  <img src="assets/footer-light.svg" alt="footer" />
+</picture>
