@@ -78,7 +78,7 @@ val takbir = Developer(
 
 <div align="center">
 
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START --><p align="center"><a href="https://takbirhimu.me/blog/err-require-esm-firebase-admin-v14-vercel-fix"><img src="https://img.shields.io/badge/READ_ARTICLE-0B0B12?style=for-the-badge" alt="Read article"/></a><br/>📝 <b><a href="https://takbirhimu.me/blog/err-require-esm-firebase-admin-v14-vercel-fix">ERR_REQUIRE_ESM: Fixing the firebase-admin v14 Crash on Vercel</a></b><br/><sub>📅 Sep 24, 2026</sub></p>
 <!-- BLOG-POST-LIST:END -->
 
 <a href="https://takbirhimu.me/blog"><img src="https://img.shields.io/badge/ALL_ARTICLES-0B0B12?style=for-the-badge&logo=rss&logoColor=39FF8F" alt="Browse all articles" /></a>
