@@ -76,8 +76,7 @@ val takbir = Developer(
 
 ## ✍️ Latest from the blog
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [ERR_REQUIRE_ESM: Fixing the firebase-admin v14 Crash on Vercel](https://takbirhimu.me/blog/err-require-esm-firebase-admin-v14-vercel-fix)<!-- BLOG-POST-LIST:END -->
 
 <sub>📝 আরও লেখা: <a href="https://takbirhimu.me/blog">takbirhimu.me/blog</a></sub>
 
