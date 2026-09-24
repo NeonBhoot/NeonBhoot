@@ -20,4 +20,5 @@ jobs:
         with:
           feed_list: "https://takbirhimu.me/rss.xml"
           max_post_count: "3"
-          template: "- [$title]($url)"
+          template: '<p align="center"><a href="$url"><img src="https://img.shields.io/badge/READ_ARTICLE-0B0B12?style=for-the-badge" alt="Read article"/></a><br/>📝 <b><a href="$url">$title</a></b><br/><sub>📅 $date</sub></p>$newline'
+          date_format: "UTC:mmm dd, yyyy"
