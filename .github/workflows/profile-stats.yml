@@ -1,0 +1,31 @@
+name: Refresh profile stat cards
+
+on:
+  schedule:
+    - cron: "0 2 * * 0" # every Sunday 02:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Render stat cards
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: NeonBhoot
+          OUT_DIR: assets
+        run: python3 scripts/render_stats.py
+
+      - name: Commit cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile stat cards"
+          file_pattern: "assets/stats-*.svg assets/streak-*.svg assets/top-langs-*.svg assets/activity-*.svg"
