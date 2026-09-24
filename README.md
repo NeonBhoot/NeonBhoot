@@ -6,7 +6,7 @@
 </picture>
 
 <a href="https://github.com/NeonBhoot">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39FF8F&center=true&vCenter=true&width=560&lines=Android+Developer;Kotlin+%E2%80%A2+Jetpack+Compose;Firebase+%E2%80%A2+Next.js;Neon+Bhoot+%F0%9F%91%BB" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=34E0FF&center=true&vCenter=true&width=560&lines=Android+Developer;Kotlin+%E2%80%A2+Jetpack+Compose;Firebase+%E2%80%A2+Next.js;Neon+Bhoot+%F0%9F%91%BB" alt="typing" />
 </a>
 
 <p><i>Ship fast, break nothing, look neon doing it.</i> 👻</p>
