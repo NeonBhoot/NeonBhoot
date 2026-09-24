@@ -332,6 +332,11 @@ def render_activity(d, theme):
 
 
 def main():
+    if not os.environ.get("STATS_TOKEN"):
+        print("STATS_TOKEN is required: add a classic PAT with 'repo' scope as a "
+              "repository secret named STATS_TOKEN (private contributions are "
+              "invisible to the default GITHUB_TOKEN).", file=sys.stderr)
+        sys.exit(1)
     data = fetch_all()
     os.makedirs(OUT, exist_ok=True)
     renderers = {
